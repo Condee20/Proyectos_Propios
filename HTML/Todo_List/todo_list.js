@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Eliminar el elemento después de que termine la animación
                 setTimeout(function() {
                     todoItem.remove();
-                }, 300); // 300ms es la duración de la animación definida en CSS
+                }, 300);
             });
         }
     });
